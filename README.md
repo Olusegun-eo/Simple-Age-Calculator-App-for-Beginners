@@ -4,23 +4,27 @@ This is a beginner-friendly TypeScript app that asks for your **date of birth** 
 
 Project: software-dev
 
-
 How create a typescript project on Vscode
 
-Create a new project directory:
+Create a new project directory Using the following command On your IDE TERMINAL:
 
 mkdir my-typescript-project
 cd my-typescript-project
 
 
-
 Initialize a new Node.js project:
 npm init -y
 
-
 Install TypeScript and required dependencies:
-File Structure/ Project Structure: Here's the recommended project structure:
+npm install --save-dev ts-node @types/node
 
+Run your TypeScript code:
+
+npm run dev
+
+
+
+File Structure/ Project Structure: Here's the recommended project structure:
 
 ├── src/
 │   └── index.ts (This is the main app))
@@ -32,25 +36,22 @@ THE PURPOSE OF THE ABOVE FILES
 
 index.ts	The main TypeScript file that runs the logic. It gets input, calculates age, and shows output.
 
-
 package.json	Tells Node.js how to run the app, what dependencies (like ts-node) are needed, and metadata about the project.
-
-
 
 tsconfig.json	Configuration file for TypeScript. It tells the compiler how to convert TypeScript code into JavaScript
 
-
-
 README.md	A friendly guide for any developer who opens your project — explains how to run it, install it, and upload to GitHub.
-
-
 
 node_modules/ (created after npm install)	Folder that stores all your libraries/dependencies like ts-node. You don't manually edit this.
 
+
 How to Upload to GitHub
+Go to your IDE Terminal:
+
 Step 1: Initialize Git (if not already): git init
 
 Step 2: Add Files and Commit: git add . [To add all the Files]
+
 git commit -m "Initial commit - Age Calculator in TypeScript"
 
 
@@ -60,12 +61,21 @@ Go to: https://github.com
 
 Click New Repository
 
-Name it: age-calculator-ts
+Name it: age-calculator[Or Anything related to the project]
 
-Do not initialize with README (you already have one)
+Descriptionm Add description
+
+Do not initialize with README.md
+
+Do not make it private if you want everyone to see your work
+
+Click Finish
 
 Step 4: Push Your Code:
-git remote add origin https://github.com/YOUR_USERNAME/age-calculator-ts.git
+git init
+git add .
+git commit -m"The firt commit on Age Calculator"
+git remote add origin https://github.com/YOUR_USERNAME/project-name.git [Copy the address From the new repository]
 git branch -M main
 git push -u origin main
 
