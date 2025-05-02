@@ -32,6 +32,8 @@ File Structure/ Project Structure: Here's the recommended project structure:
 ├── tsconfig.json
 └── README.md
 
+
+
 THE PURPOSE OF THE ABOVE FILES
 
 index.ts	The main TypeScript file that runs the logic. It gets input, calculates age, and shows output.
@@ -43,6 +45,10 @@ tsconfig.json	Configuration file for TypeScript. It tells the compiler how to co
 README.md	A friendly guide for any developer who opens your project — explains how to run it, install it, and upload to GitHub.
 
 node_modules/ (created after npm install)	Folder that stores all your libraries/dependencies like ts-node. You don't manually edit this.
+
+
+
+
 
 
 How to Upload to GitHub
