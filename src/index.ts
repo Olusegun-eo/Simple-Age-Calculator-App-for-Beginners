@@ -16,7 +16,7 @@ let currentMonth: number;
 let currentDay: number;
 
 // Step-by-step questions
-console.log("👋 Welcome to the Simple Age Calculator!");
+console.log(" Welcome to the Simple Age Calculator!");
 
 // Ask for birth year
 rl.question("Enter your birth year (e.g., 2000): ", (yearAnswer) => {
@@ -56,7 +56,7 @@ rl.question("Enter your birth year (e.g., 2000): ", (yearAnswer) => {
             }
 
             // Show the result
-            console.log("🎉 You are " + age + " years old.");
+            console.log(" You are " + age + " years old.");
 
             // Close the question tool
             rl.close();
