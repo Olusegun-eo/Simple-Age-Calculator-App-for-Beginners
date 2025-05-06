@@ -20,7 +20,9 @@ npm install --save-dev ts-node @types/node
 
 Run your TypeScript code:
 
-npm run dev
+npm run build
+
+npm run start
 
 
 
